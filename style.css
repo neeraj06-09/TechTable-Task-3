@@ -1,13 +1,18 @@
+.first{
+    margin-top: 50px;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: larger;
+}
 .content{
-    color:rgb(5, 5, 70);
-    font-weight: bold;
-    font-size: 20px;
+    color:rgb(2, 2, 224);
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .col-7{
-   border-right: 2px solid rgb(8, 79, 126);
+   border-right: 4px solid rgb(9, 111, 179);
 }
-
 
 .col{
     font-size: 15px;
