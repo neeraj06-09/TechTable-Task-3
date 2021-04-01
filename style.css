@@ -1,0 +1,16 @@
+.content{
+    color:rgb(5, 5, 70);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col-7{
+   border-right: 2px solid rgb(8, 79, 126);
+}
+
+
+.col{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2%;
+}
