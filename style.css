@@ -1,31 +1,29 @@
-.nav-item{
-    text-align: center;
-    margin-left: 2em;
+.box{
+    margin: 10px;
+    padding:5px;
 }
 
-#about{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;
+.row{
+    margin:7px;
+    margin-top: 20px;
 }
 
-#id{
-    text-align: center;
+#details{
+    border-left: 3px solid rgb(0, 48, 80);
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+.text{
+    font-weight: bold;
+    font-size: large;
 }
 
-  .form-group{
-      margin-top: 0.5em;
-      margin-bottom: 0.5rem;
-  }
+#socialmedia{
+  padding: 0 auto;
+}
 
-  #card{
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-  }
-
-  body { padding-top: 50px; }
+.col-md-1{
+    margin: 1px;
+}
+.col-md-3{
+    margin: 1px;
+}

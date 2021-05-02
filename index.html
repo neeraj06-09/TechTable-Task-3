@@ -1,278 +1,93 @@
-<!DOCTYPE html>
-<head>
-    <title>TechTable | Courses</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-</head>
-
-<body>
-   
-<div class="row">
-    <div class="col-md-12">
-      
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#" style="margin-left: 2em;">TechTable</a>
-          
-            <div class="pos-f-t">
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-dark p-4">
-                    <h4 class="text-white">Collapsed content</h4>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                  </div>
-                </div>
-                
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                
-            </div>
-          
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#courses">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#form">Mentor</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#test">Testimonials</a>
-                  </li>
-              </ul>
-            </div>
-          </nav>
+    <link href="style.css" rel="stylesheet">
+    <title>TECHTABLE</title>
+  </head>
+  <body>
+  <div class="box">
+    <div class="row">
+      <div class="col-md-6 text-center"><h1 style="color: blue;  font-family: 'Courier New', Courier, monospace; font-weight: bold;">>>> GET IN TOUCH</div>
+      <div class="col-md-6 text-center"> <img src="techtable.png" height="80px" alt="WhatsApp image"> </div>
     </div>
-    
-    <div class="bg-img d-flex justify-content-center align-items-center" id="About" style="background-attachment: fixed;background-image:url(cup-man-achievement-success-honor.jpg); height: 100vh; background-size: cover; filter: brightness(90%);">
-        
-    <h1 class="col-md-6 text-black" style="margin-left: 1rem;margin-right: 1rem;">Join Mentorship, Become the Expert from zero to hero!</h1>
-
-    </div>
-    
-    <div class="row mx-auto" id="courses" style="background-color:  black;">
-        <div class="col-md-3 mx-auto" style="padding-top: 50px;padding-bottom: 50px;">
-          <div class="zoom">
-            <div class="card mx-auto" style="width:300px;" id="card">
-                <img class="card-img-top" src="web.jpg" alt="Card image" style="width: 298px; height: 180px;">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Web Development</h4>
-                  <p class="card-text">This course will cover front-end and back-end technologies along with projects to make you expert in this field.</p>
-                  <a href="#" class="btn btn-primary">Apply now</a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mx-auto" style="padding-top: 50px;padding-bottom: 50px;">
-            <div class="card mx-auto" style="width:300px" id="card">
-                <img class="card-img-top" src="app.jpg" alt="Card image" style="width: 298px; height: 180px;">
-                <div class="card-body text-center">
-                  <h4 class="card-title">App Development</h4>
-                  <p class="card-text">Core technologies covered will be Java, Flutter and Firebase along with projects for practical understanding of these.</p>
-                  <a href="#" class="btn btn-primary">Apply Now</a>
-                </div>
+    <br> <br>
+        <div class="row">
+            <div class="col-md-8" id="socialmedia">
+                <div class="row text-center" style="margin-top: 40px;">
+                    <div class="col-md-2">
+                      <a href="https://www.whatsapp.com/"><img src="wp.png" height="40"> </a> 
+                       </div>
+             
+                       <div class="col-md-4" id="text">
+                        <h3>WhatsApp Group</h3> 
+                       </div>
+                       <div class="col-md-2">
+                        <a href="https://www.facebook.com/"><img src="face.png" height="40"> </a>
+                       </div>
+             
+                       <div class="col-md-4">
+                        <h3>Facebook page <h3>
+                       </div>
               </div>
-        </div>
-        <div class="col-md-3 mx-auto" style="padding-top: 50px;padding-bottom: 50px;">
-            <div class="card mx-auto" style="width:300px" id="card">
-                <img class="card-img-top" src="graphic.jpg" alt="Card image" style="width: 298px; height: 180px;">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Graphic Designing</h4>
-                  <p class="card-text">Learn Photoshop, Illustrator, and InDesign by creating posters, logos, and more that will help you master this field.</p>
-                  <a href="#" class="btn btn-primary" style="align-items: center;">Apply Now</a>
-                </div>
-              </div>
-        </div>
-        <div class="col-md-3 mx-auto" style="padding-top: 50px;padding-bottom: 50px;">
-            <div class="card mx-auto" style="width:300px" id="card">
-                <img class="card-img-top" src="personal.jpg" alt="Card image" style="width: 298px; height: 177px;">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Personality Development</h4>
-                  <p class="card-text">Discover how to adapt quicker and thrive in a fast, fluid, ambiguous world.</p>
-                  <a href="#" class="btn btn-primary">Apply Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row text-center mx-auto text-black" id = "form" style="background-attachment: fixed;background-image:url(cup-man-achievement-success-honor.jpg); height: 100vh; background-size: cover;  filter: brightness(90%);">
-        <h2 style="margin-top: 4rem; color: black;">Join as a Mentor</h2>
-        <form>
-        <div class="row" style="margin-top: 2rem;">
-            <div class="form-group col-md-4 mx-auto text-black">
-                <label for="inputEmail4" style="color: black;">Name</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
-            </div>
-            <div class="form-group col-md-4 mx-auto">
-                <label for="inputEmail4" style="color: black;" >E-Mail</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="E-Mail">
-            </div>
-        </div>  
-        <div class="row" style="margin-top: 2rem;">
-            <div class="form-group  col-md-4 mx-auto">
-              <label for="inputAddress" style="color: black;">Mobile Number</label>
-              <input type="text" class="form-control" id="inputAddress" style="filter: brightness(100%);">
-            </div>
-            <div class="form-group  col-md-4 mx-auto">
-              <label for="inputAddress2" style="color: black;">College</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="College">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 2rem;">
-            <div class="form-group  col-md-4 mx-auto">
-                <label for="inputAddress2" style="color: black;">Domain of Expertise</label>
-                <input type="text" class="form-control" id="inputAddress2">
-              </div>
-              <div class="form-group  col-md-4 mx-auto">
-                <label for="inputAddress2" style="color: black;">Share some of your past works</label>
-                <input type="text" class="form-control" id="inputAddress2">
-              </div>
-        </div>         
-        
-              <div class="form-group col-md-4 mx-auto" style="margin-top: 2rem;">
-                <label for="inputCity" style="color: black;">Year of Graduation</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-
-            <button type="submit" class="btn btn-primary center" style="margin-top: 1rem; margin-bottom: 2rem" onclick="click()">Submit</button>
-          </form>
-    </div>
-    
-    <div class="row mx-auto" id="test" style="background-image: url(bkg5.png); background-position: cover; background-repeat: no-repeat; opacity: 0.8; background-repeat: repeat;">
-      <h1 style="text-align: center; margin-top: 1rem; color: palegreen;">Testimonials...</h1>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card">
-           <img src="" style="border-radius: 50%;">
-            <div class="card-body text-center">
-              <h4 class="card-title">Akash</h4>
-              <p class="card-text">A great course for complete beginners to understand web development.</p>
-              
-            </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card">
-          <img src="" style="border-radius: 50%;">
-          <div class="card-body text-center">
-            <h4 class="card-title">Gautam</h4>
-            <p class="card-text">Online classes and projects helped me to grasp concepts very quickly.</p>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card">
-          <img src="" style="border-radius: 50%;">
-        <div class="card-body text-center">
-          <h4 class="card-title">Kunal</h4>
-          <p class="card-text">It is an amazing course which helped me to become expert in this field.</p>
+              <div class="row text-center" style="margin-top: 40px;">
+                   <div class="col-md-2">
+                    <a href="https://in.linkedin.com"><img src="link.png" height="40"> </a>
+                   </div>
          
+                   <div class="col-md-4" id="text">
+                    <h3>Linkedin Page</h3> 
+                   </div>
+                   <div class="col-md-2">
+                    <a href="https://www.instagram.com"> <img src="instagram.jpg" height="40"> </a>
+                   </div>
+         
+                   <div class="col-md-4">
+                    <h3>Instagram Page    <h3>
+                   </div>
+             </div>
+
+             <div class="row text-center" style="margin-top: 40px;">
+                <div class="col-md-2">
+                  <a href="http://in.youtube.com/"> <img src="youtube.png" height="40"> </a>
+                </div>
+      
+                <div class="col-md-4" id="text">
+                 <h3>YouTube Channel</h3> 
+                </div>
+                <div class="col-md-2">
+                  <a href="https://telegram.org"> <img src="telegram.png" height="40"> </a>
+                </div>
+      
+                <div class="col-md-4">
+                 <h3>Telegram Group </h3>
+                </div>
+          </div>
+
+
         </div>
+        <div class="col-md-4" id="details">
+            <span style="color:rgb(0, 48, 80); font-weight: bold; font-size: 30px;"> Location</span> <br>
+            Nirmaan IITM, Chennai 600036 <br><br>
+            <span style="color: rgb(0, 48, 80); font-weight: bold; font-size: 30px;"> Email Address</span> <br>
+            admin@techtable.co.in<br><br>
+            <span style="color: rgb(0, 48, 80); font-weight: bold; font-size: 30px;"> Mobile Number</span> <br>
+            9940332489 <br><br>
         </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card" >
-          <img src="" style="border-radius: 50%;">
-            <div class="card-body text-center">
-              <h4 class="card-title">Mradul</h4>
-              <p class="card-text">Mentors are very good, thoroughly enjoyed learning from them.</p>
-              
-            </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card" >
-          <img src="" style="border-radius: 50%;">
-            <div class="card-body text-center">
-              <h4 class="card-title">Priyanshi</h4>
-              <p class="card-text">Course curriculum is very good and covers all important topics.</p>
-              
-            </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%;margin-top: 1rem; margin-bottom: 1rem;" id="card" >
-          <img src="" style="border-radius: 50%;">
-            <div class="card-body text-center">
-              <h4 class="card-title">Shivam</h4>
-              <p class="card-text">I developed many projects, thanks to TechTable for this course.</p>
-              
-            </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-auto">
-        <div class="card mx-auto" style="border-radius: 10%; margin-top: 1rem; margin-bottom: 1rem;" id="card" >
-          <img src="" style="border-radius: 50%;">
-            <div class="card-body text-center">
-              <h4 class="card-title">Shreya</h4>
-              <p class="card-text">Learning experience is very good and I recommend everyone for this course.</p>
-              
-            </div>
-        </div>
-      </div>
-    </div>
+          
+     </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
     
-    <div class="row mx-auto" id = "footer">
-      <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-      
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        TechTable
-          <a class="text-white" href="https://techtable.co.in/">Visit Website</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-    </div>
-
-</div>
-
-<script src="script.js"></script>
-
-
-</body>
+  </body>
 </html>
