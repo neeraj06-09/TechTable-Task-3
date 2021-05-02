@@ -1,7 +1,31 @@
+.nav-item{
+    text-align: center;
+    margin-left: 2em;
+}
 
+#about{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#id{
+    text-align: center;
+}
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
+  .form-group{
+      margin-top: 0.5em;
+      margin-bottom: 0.5rem;
+  }
+
+  #card{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  body { padding-top: 50px; }
